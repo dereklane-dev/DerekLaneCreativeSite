@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music | Derek Lane Creative Portfolio</title>
+    <meta name="description" content="Listen to the music projects and compositions of Derek Lane, showcasing original tracks and creative audio work.">
+    <meta name="keywords" content="Derek Lane, music, audio projects, compositions, creative portfolio">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <section>
+
+            <h1>Music Projects</h1>
+
+            <div class="filters-bar">
+
+                <button id="filter-toggle" aria-expanded="false">
+                    Filters
+                </button>
+
+            </div>
+
+            <div id="filters" class="filters" hidden>
+                    <button data-filter="all" class="active">All</button>
+                    <button data-filter="vocals">Vocals</button>
+                    <button data-filter="songwriting">Songwriting</button>
+                    <button data-filter="bass">Bass</button>
+                    <button data-filter="drums">Drums</button>
+                    <button data-filter="performance">Performance</button>
+            </div>
+
+            <div id="projects" data-base-category="music" class="projects-grid"></div>
+
+        </section>
+
+        <div>
+
+            <a href="/all-projects.html" class="button">All Projects</a>
+
+        </div>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/main.js"></script>
+    <script type="module" src="/js/render.js"></script>
+
+</body>
+
+</html>

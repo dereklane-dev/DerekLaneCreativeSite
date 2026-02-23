@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videography | Derek Lane Creative Portfolio</title>
+    <meta name="description" content="Watch Derek Lane's videography projects, including music videos, live concert videos, product videography, and other creative video content.">
+    <meta name="keywords" content="Derek Lane, videography, video projects, films, creative portfolio">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <section>
+
+            <h1 class="project-title">Videography Projects</h1>
+
+            <div class="filters-bar">
+
+                <button id="filter-toggle" aria-expanded="false">
+                    Filters
+                </button>
+
+            </div>
+
+            <div id="filters" class="filters" hidden>
+                    <button data-filter="all" class="active">All</button>
+                    <button data-filter="editing">Editing</button>
+                    <button data-filter="cinematography">Cinematography</button>
+                    <button data-filter="directing">Directing</button>
+                    <button data-filter="360-camera">360 Camera</button>
+            </div>
+
+            <div id="projects" data-base-category="videography" class="projects-grid"></div>
+
+        </section>
+
+        <div>
+
+            <a href="/all-projects.html" class="button">All Projects</a>
+
+        </div>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/main.js"></script>
+    <script type="module" src="/js/render.js"></script>
+
+</body>
+
+</html>

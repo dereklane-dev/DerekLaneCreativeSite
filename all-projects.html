@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects | Derek Lane Creative Portfolio</title>
+    <meta name="description" content="Browse the complete collection of projects by Derek Lane, including web design, graphic design, videography, photography, and music work.">
+    <meta name="keywords" content="Derek Lane, projects, portfolio, web design, UX, graphic design, videography, photography, music">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+
+            <section>
+
+                <h1>All Projects</h1>
+
+                <div class="filters-bar">
+
+                    <button id="filter-toggle" aria-expanded="false">
+                        Filters
+                    </button>
+
+                </div>
+
+            </section>
+                
+            <div id="filters" class="filters" hidden>
+                    <button data-filter="all" class="active">All</button>
+                    <button data-filter="web-dev-and-ux">Web Dev and UX</button>
+                    <button data-filter="graphic-design">Graphic Design</button>
+                    <button data-filter="videography">Videography</button>
+                    <button data-filter="photography">Photography</button>
+                    <button data-filter="music">Music</button>
+            </div>
+
+            <div id="projects" class="projects-grid"></div>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/render.js"></script>
+
+</body>
+
+</html>
