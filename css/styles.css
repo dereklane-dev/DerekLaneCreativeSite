@@ -134,6 +134,10 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
+.centered-text, .centered-text p {
+    text-align: center;
+}
+
 /* Header */
 
 .site-header {
@@ -162,12 +166,6 @@ a:focus-visible {
     max-width: 500px;
     height: auto;
     margin: 1rem auto;
-}
-
-/* Footer */
-
-#footer-flex p {
-    text-align: center;
 }
 
 /* Nav area */
