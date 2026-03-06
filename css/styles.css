@@ -164,6 +164,12 @@ a:focus-visible {
     margin: 1rem auto;
 }
 
+/* Footer */
+
+#footer-flex p {
+    text-align: center;
+}
+
 /* Nav area */
 
 .main-nav {
