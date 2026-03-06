@@ -88,6 +88,11 @@ p {
     font-size: 1rem;
     line-height: 1.6;
     margin: 0 auto 1.5rem;
+    text-align: left;
+}
+
+.project-card p, .unmask-hifi-container p {
+    text-align: center;
 }
 
 p + p {
@@ -254,7 +259,7 @@ img {
 }
 
 .card h2 {
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 0.5rem;
 }
 
 .card h3 {
