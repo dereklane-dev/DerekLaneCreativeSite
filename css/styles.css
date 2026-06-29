@@ -91,7 +91,7 @@ p {
     text-align: left;
 }
 
-.project-card p, .unmask-hifi-container p {
+.project-card p {
     text-align: center;
 }
 
@@ -110,6 +110,14 @@ small {
 
 ul {
     list-style: none;
+}
+
+.list {
+    max-width: 80ch;
+    margin: 0 auto 1.5rem;
+    padding-left: 2rem;
+    text-align: left;
+    list-style: disc;
 }
 
 figcaption {
@@ -529,6 +537,14 @@ thead th {
     margin: auto 0;
 }
 
+    /* Responsibilities List */
+
+.unmask-responsibilities {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem 2rem;
+}
+
     /* Competitor Analysis */
 
 .competitor-card {
@@ -622,6 +638,12 @@ thead th {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.unmask-design-improvements-container img {
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 250px;
+}
+
     /* Logo and Brand Design */
 
 .unmask-logo-wip {
@@ -704,11 +726,6 @@ thead th {
 }
 
     /* High Fidelity Prototype */
-
-.unmask-hifi-container {
-    display: flex;
-    gap: 2rem;
-}
 
 .unmask-hifi button {
     margin: 1rem auto;
@@ -1005,12 +1022,6 @@ footer p {
             gap: 0;
         }
 
-            /* Hifi Prototype */
-
-        .unmask-hifi-container {
-            display: block;
-        }
-
 }
 
 /* Large Mobile and Tablet */
@@ -1119,6 +1130,10 @@ footer p {
 
         /* Unmask */
 
+        .unmask-responsibilities {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
             /* Personas */
 
         .unmask-personas-container {
@@ -1220,6 +1235,10 @@ footer p {
 
         /* Unmask */
 
+        .unmask-responsibilities {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
         #unmask-persona div + div {
             margin-top: 4rem;
         }
@@ -1281,6 +1300,10 @@ footer p {
     /* Projects pages */
 
         /* Unmask */
+
+        .unmask-responsibilities {
+            grid-template-columns: repeat(2, 1fr);
+        }
 
         #unmask-persona div + div {
             margin-top: 4rem;
